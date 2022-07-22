@@ -37,7 +37,6 @@ int main()
 
     if (setupwebinterface.alreadyConfigured())
     {
-        Display::instance()->showText("test5");
         std::string msg = std::string("Connecting to: ")+setupwebinterface.savedSSID();
         display->showText(msg);
         setupwebinterface.connectToSavedWlan();

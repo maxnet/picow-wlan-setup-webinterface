@@ -216,14 +216,6 @@ static void _reboot()
 
 void SetupWebInterface::saveSettings(const std::string &ssid, const std::string &psk)
 {
-/*    uint32_t addr = (uint32_t) &persistent_info-XIP_BASE;
-
-    int inter = save_and_disable_interrupts();
-    flash_range_erase(addr, FLASH_SECTOR_SIZE);
-    flash_range_program(addr, (uint8_t *) &newSettings, FLASH_PAGE_SIZE);
-    restore_interrupts(inter);
-    Display::instance()->showText("Done");*/
-
     Display::instance()->showText("Saving settings...");
 
     pico_mount(false);
