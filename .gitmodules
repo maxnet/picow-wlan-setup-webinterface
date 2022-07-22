@@ -1,0 +1,12 @@
+[submodule "pico-sdk"]
+	path = pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git
+[submodule "QR-Code-generator"]
+	path = QR-Code-generator
+	url = https://github.com/nayuki/QR-Code-generator.git
+[submodule "pimoroni-pico"]
+	path = pimoroni-pico
+	url = https://github.com/pimoroni/pimoroni-pico.git
+[submodule "littlefs-lib"]
+	path = littlefs-lib
+	url = https://github.com/lurk101/littlefs-lib.git
