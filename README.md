@@ -21,6 +21,9 @@ If not, compile [CMake from source](https://cmake.org/download/#latest) first.
 git clone --depth 1 https://github.com/maxnet/picow-wlan-setup-webinterface
 cd picow-wlan-setup-webinterface
 git submodule update --init
+cd pico-sdk
+git submodule update --init
+cd ..
 mkdir -p build
 cd build
 cmake .. -DPICO_BOARD=pico_w -DCMAKE_BUILD_TYPE=MinSizeRel
